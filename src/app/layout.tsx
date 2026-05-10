@@ -18,8 +18,12 @@ export const metadata: Metadata = {
     images: ['/logo.png'],
   },
   icons: {
-    icon: '/logo.png',
-    apple: '/logo.png',
+    icon: [
+      { url: '/aftertext-web/favicon.ico', sizes: 'any' },
+      { url: '/aftertext-web/logo.png', type: 'image/png' },
+    ],
+    apple: '/aftertext-web/logo.png',
+    shortcut: '/aftertext-web/favicon.ico',
   },
 }
 

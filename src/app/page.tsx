@@ -4,6 +4,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 
+const LOGO = '/aftertext-web/logo.png'
+
 /* ─────────────────────── DATA ─────────────────────── */
 
 const vibeQuotes = [
@@ -218,7 +220,7 @@ export default function Home() {
       {/* ═══════════════════ NAV ═══════════════════ */}
       <nav className="relative z-10 flex items-center justify-between px-6 py-5 max-w-6xl mx-auto">
         <div className="flex items-center gap-3">
-          <Image src="/logo.png" alt="AfterText" width={36} height={36} className="rounded-xl" />
+          <Image src={LOGO} alt="AfterText" width={36} height={36} className="rounded-xl" />
           <span className="font-black text-lg tracking-tight">
             After<span style={{ color: '#FF2D78' }}>Text</span>
           </span>
@@ -245,7 +247,7 @@ export default function Home() {
             animation: 'float 6s ease-in-out infinite',
           }}
         >
-          <Image src="/logo.png" alt="AfterText Logo" width={112} height={112} className="w-full h-full object-cover" />
+          <Image src={LOGO} alt="AfterText Logo" width={112} height={112} className="w-full h-full object-cover" />
         </div>
 
         {/* Tagline badge */}
@@ -524,7 +526,7 @@ export default function Home() {
       <footer className="relative z-10 border-t border-white/5 py-10 px-6">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <Image src="/logo.png" alt="AfterText" width={28} height={28} className="rounded-lg opacity-80" />
+            <Image src={LOGO} alt="AfterText" width={28} height={28} className="rounded-lg opacity-80" />
             <span className="text-white/40 text-sm font-semibold">
               After<span style={{ color: '#FF2D78' }}>Text</span>
             </span>

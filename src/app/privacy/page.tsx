@@ -57,7 +57,7 @@ const content = {
       },
       {
         title: '10. Contact',
-        body: 'Questions? Reach us at <a href="mailto:privacy@aftertext.app" class="underline" style="color:#FF2D78">privacy@aftertext.app</a>',
+        body: 'Questions? Reach us at <a href="mailto:hello@tulpara.com" class="underline" style="color:#FF2D78">hello@tulpara.com</a>',
       },
     ],
   },
@@ -113,7 +113,7 @@ const content = {
       },
       {
         title: '10. İletişim',
-        body: 'Sorularınız için: <a href="mailto:privacy@aftertext.app" class="underline" style="color:#FF2D78">privacy@aftertext.app</a>',
+        body: 'Sorularınız için: <a href="mailto:hello@tulpara.com" class="underline" style="color:#FF2D78">hello@tulpara.com</a>',
       },
     ],
   },
@@ -169,7 +169,7 @@ const content = {
       },
       {
         title: '10. Контакты',
-        body: 'Есть вопросы? Напишите нам: <a href="mailto:privacy@aftertext.app" class="underline" style="color:#FF2D78">privacy@aftertext.app</a>',
+        body: 'Есть вопросы? Напишите нам: <a href="mailto:hello@tulpara.com" class="underline" style="color:#FF2D78">hello@tulpara.com</a>',
       },
     ],
   },
@@ -225,7 +225,7 @@ const content = {
       },
       {
         title: '10. Contacto',
-        body: '¿Preguntas? Contáctanos en <a href="mailto:privacy@aftertext.app" class="underline" style="color:#FF2D78">privacy@aftertext.app</a>',
+        body: '¿Preguntas? Contáctanos en <a href="mailto:hello@tulpara.com" class="underline" style="color:#FF2D78">hello@tulpara.com</a>',
       },
     ],
   },
@@ -297,10 +297,22 @@ export default function Privacy() {
         ))}
       </div>
 
-      <div className="mt-16 pt-8 border-t border-white/5 text-center">
-        <Link href="/" className="text-white/30 hover:text-white/60 transition-colors text-sm">
+      <div className="mt-16 pt-8 border-t border-white/5 text-center space-y-3">
+        <Link href="/" className="text-white/30 hover:text-white/60 transition-colors text-sm block">
           ← Back to AfterText
         </Link>
+        <p className="text-white/20 text-xs">
+          Made with ♥ by{' '}
+          <a
+            href="https://www.tulpara.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white/50 transition-colors"
+            style={{ color: 'rgba(255,45,120,0.6)' }}
+          >
+            Tulpara
+          </a>
+        </p>
       </div>
     </main>
   )

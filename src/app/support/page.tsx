@@ -12,7 +12,7 @@ const content = {
     faqTitle: 'Frequently Asked Questions',
     contactTitle: 'Contact Us',
     contactBody: 'Can\'t find your answer? Reach us at',
-    contactEmail: 'support@aftertext.app',
+    contactEmail: 'hello@tulpara.com',
     responseTime: 'We typically respond within 24–48 hours.',
     faq: [
       {
@@ -37,7 +37,7 @@ const content = {
       },
       {
         q: 'The app crashed or isn\'t working. What do I do?',
-        a: 'Try force-closing and reopening the app. If the issue persists, make sure you\'re on the latest version and contact us at support@aftertext.app with your device model and iOS version.',
+        a: 'Try force-closing and reopening the app. If the issue persists, make sure you\'re on the latest version and contact us at hello@tulpara.com with your device model and iOS version.',
       },
       {
         q: 'Is AfterText suitable for all ages?',
@@ -56,7 +56,7 @@ const content = {
     faqTitle: 'Sıkça Sorulan Sorular',
     contactTitle: 'Bize Ulaşın',
     contactBody: 'Cevabınızı bulamadınız mı? Bize yazın:',
-    contactEmail: 'support@aftertext.app',
+    contactEmail: 'hello@tulpara.com',
     responseTime: 'Genellikle 24–48 saat içinde yanıt veririz.',
     faq: [
       {
@@ -81,7 +81,7 @@ const content = {
       },
       {
         q: 'Uygulama çöktü veya çalışmıyor. Ne yapmalıyım?',
-        a: 'Uygulamayı tamamen kapatıp yeniden açmayı deneyin. Sorun devam ederse güncel sürümde olduğunuzdan emin olun ve cihaz modeliniz ile iOS sürümünüzü belirterek support@aftertext.app adresine yazın.',
+        a: 'Uygulamayı tamamen kapatıp yeniden açmayı deneyin. Sorun devam ederse güncel sürümde olduğunuzdan emin olun ve cihaz modeliniz ile iOS sürümünüzü belirterek hello@tulpara.com adresine yazın.',
       },
       {
         q: 'AfterText her yaşa uygun mu?',
@@ -100,7 +100,7 @@ const content = {
     faqTitle: 'Preguntas Frecuentes',
     contactTitle: 'Contáctanos',
     contactBody: '¿No encontraste tu respuesta? Escríbenos a',
-    contactEmail: 'support@aftertext.app',
+    contactEmail: 'hello@tulpara.com',
     responseTime: 'Solemos responder en 24–48 horas.',
     faq: [
       {
@@ -125,7 +125,7 @@ const content = {
       },
       {
         q: 'La app se cerró o no funciona. ¿Qué hago?',
-        a: 'Intenta cerrar y volver a abrir la app. Si el problema persiste, asegúrate de tener la última versión y contáctanos en support@aftertext.app con tu modelo de dispositivo y versión de iOS.',
+        a: 'Intenta cerrar y volver a abrir la app. Si el problema persiste, asegúrate de tener la última versión y contáctanos en hello@tulpara.com con tu modelo de dispositivo y versión de iOS.',
       },
       {
         q: '¿AfterText es apto para todas las edades?',
@@ -144,7 +144,7 @@ const content = {
     faqTitle: 'Часто задаваемые вопросы',
     contactTitle: 'Связаться с нами',
     contactBody: 'Не нашли ответ? Напишите нам:',
-    contactEmail: 'support@aftertext.app',
+    contactEmail: 'hello@tulpara.com',
     responseTime: 'Мы обычно отвечаем в течение 24–48 часов.',
     faq: [
       {
@@ -169,7 +169,7 @@ const content = {
       },
       {
         q: 'Приложение вылетает или не работает. Что делать?',
-        a: 'Попробуйте полностью закрыть и снова открыть приложение. Если проблема не устранена, убедитесь, что у вас последняя версия, и напишите нам на support@aftertext.app, указав модель устройства и версию iOS.',
+        a: 'Попробуйте полностью закрыть и снова открыть приложение. Если проблема не устранена, убедитесь, что у вас последняя версия, и напишите нам на hello@tulpara.com, указав модель устройства и версию iOS.',
       },
       {
         q: 'AfterText подходит для всех возрастов?',
@@ -282,10 +282,22 @@ export default function Support() {
         <p className="text-white/25 text-xs mt-4">{c.responseTime}</p>
       </div>
 
-      <div className="mt-16 pt-8 border-t border-white/5 text-center">
-        <Link href="/" className="text-white/30 hover:text-white/60 transition-colors text-sm">
+      <div className="mt-16 pt-8 border-t border-white/5 text-center space-y-3">
+        <Link href="/" className="text-white/30 hover:text-white/60 transition-colors text-sm block">
           ← Back to AfterText
         </Link>
+        <p className="text-white/20 text-xs">
+          Made with ♥ by{' '}
+          <a
+            href="https://www.tulpara.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white/50 transition-colors"
+            style={{ color: 'rgba(255,45,120,0.6)' }}
+          >
+            Tulpara
+          </a>
+        </p>
       </div>
     </main>
   )

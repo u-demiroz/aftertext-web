@@ -544,9 +544,20 @@ export default function Home() {
             © {new Date().getFullYear()} AfterText · For entertainment only · Not therapy
           </p>
           <div className="flex gap-5 text-sm">
+            <Link href="/support" className="text-white/30 hover:text-white/70 transition-colors">
+              Support
+            </Link>
             <Link href="/privacy" className="text-white/30 hover:text-white/70 transition-colors">
               Privacy Policy
             </Link>
+            <a
+              href="https://www.tulpara.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/20 hover:text-white/50 transition-colors"
+            >
+              Tulpara
+            </a>
           </div>
         </div>
       </footer>

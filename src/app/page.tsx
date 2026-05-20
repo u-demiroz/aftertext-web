@@ -19,6 +19,9 @@ const vibeQuotes = [
   { text: '"Él responde, pero su alma está en modo avión."', lang: '🇪🇸' },
   { text: '"This man texts like he\'s in a hostage negotiation."', lang: '🇬🇧' },
   { text: '"Conversación patrocinada por el ghosting emocional."', lang: '🇪🇸' },
+  { text: '"Он отвечает. Но духом уже ушёл."', lang: '🇷🇺' },
+  { text: '"Эта переписка спонсирована эмоциональным отсутствием."', lang: '🇷🇺' },
+  { text: '"Ты пишешь ему, а он читает на автопилоте."', lang: '🇷🇺' },
 ]
 
 const steps = [
@@ -85,6 +88,7 @@ const languages = [
   { flag: '🇬🇧', name: 'English', vibe: 'Witty · Savage · TikTok-brained' },
   { flag: '🇹🇷', name: 'Türkçe', vibe: 'Sarcastic · Street-smart · Sharp' },
   { flag: '🇪🇸', name: 'Español', vibe: 'Dramatic · Flirty · Emotionally Unhinged' },
+  { flag: '🇷🇺', name: 'Русский', vibe: 'Cold · Deadpan · Devastatingly Honest' },
 ]
 
 /* ─────────────────────── COMPONENTS ─────────────────────── */
@@ -403,7 +407,7 @@ export default function Home() {
       {/* ═══════════════════ LANGUAGES ═══════════════════ */}
       <section className="relative z-10 py-20 px-6 max-w-4xl mx-auto text-center">
         <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#00E5FF' }}>
-          3 Languages
+          4 Languages
         </p>
         <h2 className="text-4xl sm:text-5xl font-black text-white mb-4">
           The drama is{' '}
@@ -446,6 +450,7 @@ export default function Home() {
             { text: '"You\'re dating a human loading screen."', flag: '🇬🇧', color: '#FF2D78' },
             { text: '"Bu ilişki değil, düşük bütçeli müşteri temsilciliği."', flag: '🇹🇷', color: '#9B30FF' },
             { text: '"Conversación patrocinada por el ghosting emocional."', flag: '🇪🇸', color: '#00E5FF' },
+            { text: '"Он отвечает. Но духом уже ушёл."', flag: '🇷🇺', color: '#9B30FF' },
           ].map((q, i) => (
             <div
               key={i}

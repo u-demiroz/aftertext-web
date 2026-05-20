@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'AfterText — Decode the Drama.',
   description: 'Your brutally honest AI best friend. Paste a chat, get the savage truth. For entertainment only.',
-  metadataBase: new URL('https://aftertext.app'),
+  metadataBase: new URL('https://aftertext.net'),
   openGraph: {
     title: 'AfterText — Decode the Drama.',
     description: 'Your brutally honest AI best friend. Paste a chat, get the savage truth.',
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/aftertext-web/favicon.ico', sizes: 'any' },
-      { url: '/aftertext-web/logo.png', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/logo.png', type: 'image/png' },
     ],
-    apple: '/aftertext-web/logo.png',
-    shortcut: '/aftertext-web/favicon.ico',
+    apple: '/logo.png',
+    shortcut: '/favicon.ico',
   },
 }
 

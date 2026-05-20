@@ -3,8 +3,7 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   images: { unoptimized: true },
-  basePath: '/aftertext-web',
-  assetPrefix: '/aftertext-web/',
+  // basePath ve assetPrefix kaldırıldı — custom domain kullanıldığında gerek yok
 }
 
 module.exports = nextConfig

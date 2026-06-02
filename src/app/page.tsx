@@ -289,7 +289,7 @@ export default function Home() {
         {/* CTA Buttons */}
         <div id="download" className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
           <a
-            href="#"
+            href="https://apps.apple.com/app/aftertext/id6744642993"
             className="flex items-center gap-3 px-7 py-4 rounded-2xl font-bold text-lg transition-all duration-200 hover:scale-105 active:scale-95"
             style={{
               background: 'linear-gradient(135deg, #FF2D78, #9B30FF)',
@@ -300,6 +300,21 @@ export default function Home() {
               <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.46 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/>
             </svg>
             <span>Download on App Store</span>
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.antigravity.aftertext"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-7 py-4 rounded-2xl font-bold text-lg transition-all duration-200 hover:scale-105 active:scale-95"
+            style={{
+              background: 'linear-gradient(135deg, #00C853, #1565C0)',
+              boxShadow: '0 0 30px rgba(0,200,83,0.4), 0 0 60px rgba(21,101,192,0.3)',
+            }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.18 23.76c.3.17.65.19.97.07l12.4-7.16-2.77-2.77-10.6 9.86zM.54 1.4C.2 1.73 0 2.25 0 2.93v18.14c0 .68.2 1.2.55 1.53l.08.07 10.16-10.16v-.24L.62 1.33l-.08.07zM20.3 10.27l-2.88-1.66-3.1 3.1 3.1 3.1 2.9-1.68c.83-.48.83-1.26-.02-1.86zM3.18.24L15.58 7.4l-2.77 2.77L2.21.31c.3-.14.68-.12.97-.07z"/>
+            </svg>
+            <span>Get it on Google Play</span>
           </a>
         </div>
 

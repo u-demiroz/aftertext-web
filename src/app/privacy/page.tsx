@@ -57,7 +57,7 @@ const content = {
       },
       {
         title: '10. Child Safety Standards',
-        body: 'AfterText has a zero-tolerance policy for Child Sexual Abuse and Exploitation (CSAE). We strictly prohibit any content or behavior that endangers children, including uploading, sharing, or distributing child sexual abuse material (CSAM), grooming or soliciting minors, or using the app to facilitate harm to children. Users must be 17 or older. Violations will result in immediate account termination and may be reported to law enforcement and the NCMEC. To report a concern: hello@tulpara.com',
+        body: 'AfterText has a zero-tolerance policy for Child Sexual Abuse and Exploitation (CSAE). We strictly prohibit any content or behavior that endangers children, including uploading, sharing, or distributing child sexual abuse material (CSAM), grooming or soliciting minors, or using the app to facilitate harm to children. Users must be 17 or older. Violations will result in immediate account termination and may be reported to law enforcement and the NCMEC. To report a concern: <a href="mailto:hello@tulpara.com" style="color:#FF2D78">hello@tulpara.com</a>',
       },
       {
         title: '11. Contact',
@@ -117,7 +117,7 @@ const content = {
       },
       {
         title: '10. Çocuk Güvenliği Standartları',
-        body: 'AfterText, Çocuk Cinsel İstismarı ve Sömürüsü (CSAE) konusunda sıfır tolerans politikasına sahiptir. Çocukları tehlikeye atan her türlü içerik veya davranışı kesinlikle yasaklarız; buna çocuk cinsel istismar materyali (CSAM) yükleme/paylaşma, küçükleri kandırma veya uygulamayı çocuklara zarar vermek amacıyla kullanma dahildir. Kullanıcıların 17 yaşında veya daha büyük olması gerekmektedir. İhlaller hesabın derhal kapatılmasıyla sonuçlanır ve kolluk kuvvetlerine bildirilebilir. Endişelerinizi bildirmek için: hello@tulpara.com',
+        body: 'AfterText, Çocuk Cinsel İstismarı ve Sömürüsü (CSAE) konusunda sıfır tolerans politikasına sahiptir. Çocukları tehlikeye atan her türlü içerik veya davranışı kesinlikle yasaklarız; buna çocuk cinsel istismar materyali (CSAM) yükleme/paylaşma, küçükleri kandırma veya uygulamayı çocuklara zarar vermek amacıyla kullanma dahildir. Kullanıcıların 17 yaşında veya daha büyük olması gerekmektedir. İhlaller hesabın derhal kapatılmasıyla sonuçlanır ve kolluk kuvvetlerine bildirilebilir. Endişelerinizi bildirmek için: <a href="mailto:hello@tulpara.com" style="color:#FF2D78">hello@tulpara.com</a>',
       },
       {
         title: '11. İletişim',
@@ -177,7 +177,7 @@ const content = {
       },
       {
         title: '10. Стандарты защиты детей',
-        body: 'AfterText придерживается политики нулевой терпимости к сексуальному насилию и эксплуатации детей (CSAE). Мы строго запрещаем любой контент или поведение, угрожающее детям: загрузку, распространение материалов сексуального насилия над детьми (CSAM), домогательства к несовершеннолетним или использование приложения для причинения вреда детям. Пользователи должны быть не моложе 17 лет. Нарушения влекут немедленную блокировку аккаунта и могут быть переданы в правоохранительные органы. Сообщить о нарушении: hello@tulpara.com',
+        body: 'AfterText придерживается политики нулевой терпимости к сексуальному насилию и эксплуатации детей (CSAE). Мы строго запрещаем любой контент или поведение, угрожающее детям: загрузку, распространение материалов сексуального насилия над детьми (CSAM), домогательства к несовершеннолетним или использование приложения для причинения вреда детям. Пользователи должны быть не моложе 17 лет. Нарушения влекут немедленную блокировку аккаунта и могут быть переданы в правоохранительные органы. Сообщить о нарушении: <a href="mailto:hello@tulpara.com" style="color:#FF2D78">hello@tulpara.com</a>',
       },
       {
         title: '11. Контакты',
@@ -237,7 +237,7 @@ const content = {
       },
       {
         title: '10. Estándares de Seguridad Infantil',
-        body: 'AfterText tiene una política de tolerancia cero ante el Abuso y Explotación Sexual Infantil (CSAE). Prohibimos estrictamente cualquier contenido o comportamiento que ponga en peligro a menores: subir, compartir o distribuir material de abuso sexual infantil (CSAM), acosar o solicitar a menores, o usar la app para causar daño a niños. Los usuarios deben tener 17 años o más. Las infracciones resultarán en el cierre inmediato de la cuenta y pueden ser reportadas a las autoridades. Para reportar una preocupación: hello@tulpara.com',
+        body: 'AfterText tiene una política de tolerancia cero ante el Abuso y Explotación Sexual Infantil (CSAE). Prohibimos estrictamente cualquier contenido o comportamiento que ponga en peligro a menores: subir, compartir o distribuir material de abuso sexual infantil (CSAM), acosar o solicitar a menores, o usar la app para causar daño a niños. Los usuarios deben tener 17 años o más. Las infracciones resultarán en el cierre inmediato de la cuenta y pueden ser reportadas a las autoridades. Para reportar una preocupación: <a href="mailto:hello@tulpara.com" style="color:#FF2D78">hello@tulpara.com</a>',
       },
       {
         title: '11. Contacto',

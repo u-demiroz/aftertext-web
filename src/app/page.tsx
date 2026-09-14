@@ -289,7 +289,7 @@ export default function Home() {
         {/* CTA Buttons */}
         <div id="download" className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
           <a
-            href="https://apps.apple.com/app/aftertext/id6744642993"
+            href="https://apps.apple.com/us/app/after-text-roast-my-chat/id6767917062"
             className="flex items-center gap-3 px-7 py-4 rounded-2xl font-bold text-lg transition-all duration-200 hover:scale-105 active:scale-95"
             style={{
               background: 'linear-gradient(135deg, #FF2D78, #9B30FF)',

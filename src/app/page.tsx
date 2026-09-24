@@ -565,6 +565,9 @@ export default function Home() {
             <Link href="/privacy" className="text-white/30 hover:text-white/70 transition-colors">
               Privacy Policy
             </Link>
+            <Link href="/child-safety" className="text-white/30 hover:text-white/70 transition-colors">
+              Child Safety
+            </Link>
             <a
               href="https://www.tulpara.com"
               target="_blank"
